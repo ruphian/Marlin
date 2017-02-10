@@ -115,6 +115,8 @@
   added as necessary or if I feel like it- not a comprehensive list!
 */
 
+#include "fastio_atmega128.h"
+
 #if defined(__AVR_ATmega168__) || defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)
   // UART
   #define RXD         DIO0
